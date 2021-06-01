@@ -20,7 +20,7 @@ checks:
 
 ### farmer/chia_challengeresponsetimes.sh
 checks:
- - the time it took to solve the challges. Reports back the very last and max times for the last 1, 5 and 15 minutes.
+ - the time it took to solve the challenges. Reports back the very lastest and max times for the last 1, 5 and 15 minutes.
 
 ### farmer/chia_farmcheck.sh
 checks 
