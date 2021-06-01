@@ -1,10 +1,10 @@
 # cmk_chia - CheckMK local checks for chia
 Some basic CheckMK [local check](https://docs.checkmk.com/latest/en/localchecks.html) bash scripts to monitor mainly chia farming health.  
 
-###Services
+### Services
 ![services screenshots](.github/services.png)
 
-###Graphs
+### Graphs
 ![graphs screenshots](.github/graphs.png)
 
 ## Install
