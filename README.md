@@ -22,6 +22,10 @@ checks:
 checks:
  - the time it took to solve the challenges. Reports back the very lastest and max times for the last 1, 5 and 15 minutes.
 
+### farmer/chia_connectednodes.sh
+checks:
+ - number of connected Full Nodes and reports the number of nodes at the same height
+
 ### farmer/chia_farmcheck.sh
 checks 
  - Farmingstatus
