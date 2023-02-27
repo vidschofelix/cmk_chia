@@ -1,5 +1,5 @@
 #!/bin/bash
-connections=$(docker exec chia venv/bin/chia show -c) # adjust this to your needs
+connections=$(docker exec chia venv/bin/chia peer -c full_node) # adjust this to your needs
 state=$(docker exec chia venv/bin/chia show -s) # adjust this to your needs
 
 ownheight=$(echo "${state}" | grep "Height:" | grep -v "Hash" | sed -r 's/.*Height:\s*([0-9]+).*$/\1/')
