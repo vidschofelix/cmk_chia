@@ -32,6 +32,7 @@ checks
  - Chias farmed
  - Total plots
  - Expected days to win
+ - First wallet total balance
 
 ### misc/chia_versioncheck.sh
 *WIP: Not finished, reports rubbish from time to time.* 
